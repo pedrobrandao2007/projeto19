@@ -73,7 +73,7 @@ function draw() {
     pontuacao = pontuacao + Math.round(getFrameRate()/60);
     solo.velocityX = -(6 + 3*pontuacao/100);
   
-    if(keyDown("space") && trex.y >= 200) {
+    if(keyDown("space") && trex.y >= 150) {
       trex.velocityY = -12;
     }
   
